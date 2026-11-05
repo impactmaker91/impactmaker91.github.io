@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy — Korea Patchwork</title>
+<meta name="description" content="Korea Patchwork privacy policy. The app collects no data and works entirely offline." />
+<style>
+  :root{
+    --paper:#F1F1ED; --paper-deep:#E7E7E1;
+    --ink:#1B2430; --ink-soft:#5A6472; --ink-faint:#8C939D;
+    --seam:#D5D5CD;
+    --jjok:#2F4A73; --bada:#22635F; --sol:#46613F; --chija:#B5821F; --honghwa:#A8412F;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --paper:#14181D; --paper-deep:#1C222A;
+      --ink:#ECEDE7; --ink-soft:#9AA3AF; --ink-faint:#6B7480;
+      --seam:#2A313A;
+    }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo",
+      "Noto Sans KR","Hiragino Sans","Noto Sans JP","PingFang SC","Noto Sans SC",Roboto,sans-serif;
+    font-size:17px; line-height:1.72; -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:0 20px 80px}
+
+  /* 조각보 머리띠 — 앱의 도시 색 다섯 조각 */
+  .quilt{display:flex;height:8px}
+  .quilt i{flex:1}
+  .quilt i:nth-child(1){background:var(--jjok);flex:1.6}
+  .quilt i:nth-child(2){background:var(--bada)}
+  .quilt i:nth-child(3){background:var(--honghwa);flex:1.25}
+  .quilt i:nth-child(4){background:var(--chija)}
+  .quilt i:nth-child(5){background:var(--sol);flex:.8}
+
+  header{padding:44px 0 28px}
+  h1{font-size:33px;line-height:1.2;letter-spacing:-.8px;margin:0 0 6px;font-weight:700}
+  .sub{color:var(--ink-soft);font-size:16px;margin:0}
+  .stamp{color:var(--ink-faint);font-size:13px;margin-top:18px}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;padding:18px 0;border-top:1px solid var(--seam);border-bottom:1px solid var(--seam)}
+  nav button{
+    font:inherit;font-size:13px;font-weight:600;cursor:pointer;
+    background:transparent;color:var(--ink-soft);
+    border:1px solid var(--seam);border-radius:0;padding:7px 14px;
+  }
+  nav button[aria-selected="true"]{background:var(--jjok);border-color:var(--jjok);color:#fff}
+  nav button:focus-visible{outline:2px solid var(--jjok);outline-offset:2px}
+
+  section[hidden]{display:none}
+  h2{font-size:20px;line-height:1.4;letter-spacing:-.2px;margin:40px 0 12px;font-weight:700}
+  p{margin:0 0 16px}
+  .lede{
+    background:var(--paper-deep); border-left:4px solid var(--jjok);
+    padding:20px 22px; margin:28px 0 8px; font-size:18px;
+  }
+  .lede strong{font-weight:700}
+  ul{margin:0 0 16px;padding-left:20px}
+  li{margin-bottom:10px}
+  .note{color:var(--ink-soft);font-size:15px}
+  a{color:var(--jjok);text-underline-offset:3px}
+  @media (prefers-color-scheme: dark){ a{color:#8FB0DC} }
+  footer{margin-top:56px;padding-top:22px;border-top:1px solid var(--seam);color:var(--ink-faint);font-size:14px}
+  code{background:var(--paper-deep);padding:2px 6px;font-size:.92em}
+</style>
+</head>
+<body>
+<div class="quilt"><i></i><i></i><i></i><i></i><i></i></div>
+<div class="wrap">
+
+<header>
+  <h1>Privacy Policy</h1>
+  <p class="sub">Korea Patchwork</p>
+  <p class="stamp">Last updated: 5 November 2026</p>
+</header>
+
+<nav role="tablist" aria-label="Language">
+  <button role="tab" aria-selected="true"  data-lang="en">English</button>
+  <button role="tab" aria-selected="false" data-lang="ja">日本語</button>
+  <button role="tab" aria-selected="false" data-lang="zh">简体中文</button>
+  <button role="tab" aria-selected="false" data-lang="ko">한국어</button>
+</nav>
+
+<!-- ============================ ENGLISH ============================ -->
+<section id="en">
+  <div class="lede">
+    <strong>Korea Patchwork does not collect any personal data.</strong>
+    The app has no servers, no accounts, and no analytics. It makes no network
+    requests of its own. Everything it shows you is stored inside the app on your phone.
+  </div>
+
+  <h2>What the app keeps on your phone</h2>
+  <p>Four things are saved locally so the app remembers them between sessions:</p>
+  <ul>
+    <li>Which language you chose.</li>
+    <li>Which places you added to “My trip”.</li>
+    <li>Which places you marked as visited.</li>
+    <li>Your trip plan: which day, and which part of the day, you put each place in.</li>
+  </ul>
+  <p>
+    This information never leaves your device. It is not uploaded, backed up to us, or
+    shared with anyone. We cannot see it. If you delete the app, it is gone.
+  </p>
+
+  <h2>Location</h2>
+  <p>
+    The “Nearby” screen can show which places in this guide are closest to you. To do that,
+    the app asks your phone for your location <em>at the moment you tap the button</em>, and
+    only while the app is open.
+  </p>
+  <p>
+    Your coordinates are used in your phone’s memory to calculate distances, and are then
+    discarded. They are never written to storage and never transmitted anywhere — the app
+    has no way to transmit them, because it does not connect to any server.
+  </p>
+  <p>
+    Location is entirely optional. If you decline the permission, every other part of the
+    app keeps working normally.
+  </p>
+
+  <h2>What the app does not do</h2>
+  <ul>
+    <li>No user accounts, sign-in, or registration.</li>
+    <li>No analytics, crash reporting, or usage tracking.</li>
+    <li>No advertising and no advertising identifiers.</li>
+    <li>No cookies or similar technologies.</li>
+    <li>No selling or sharing of personal information, because none is collected.</li>
+    <li>No downloading while you use it. Maps and photos are already inside the app.</li>
+  </ul>
+
+  <h2>Links that take you out of the app</h2>
+  <p>
+    Some buttons open something outside Korea Patchwork, and only when you tap them:
+    map buttons (Naver Map, Google Maps), which pass a place’s name or location to that map
+    service; phone numbers in Essentials, which open your phone’s dialler; source links on the
+    credits screen, which open a website in your browser; and booking links, where a city page
+    shows them, which open a travel partner’s website.
+  </p>
+  <p>
+    Once you tap one of those, you are in someone else’s app or website, and their privacy
+    policy applies rather than ours. Some booking partners pay us a commission if you book
+    through their link, and they may use a referral tag or cookie to attribute the booking.
+    We never receive your personal details from them — only, at most, aggregate counts of
+    bookings. Nothing about you is sent to them by this app.
+  </p>
+
+  <h2>Children</h2>
+  <p>
+    The app is a travel guide suitable for a general audience. It collects no data from
+    anyone, including children.
+  </p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li>Turn location off at any time in your phone’s settings for this app.</li>
+    <li>Erase everything you have saved with “Clear my trip” in the app’s Settings screen.</li>
+    <li>Delete the app to remove all of its stored data from your device.</li>
+  </ul>
+  <p class="note">
+    Because the app holds no personal data about you on any server, there is nothing for us
+    to export, correct, or delete on request — the data lives only on your own device, under
+    your control.
+  </p>
+
+  <h2>Changes to this policy</h2>
+  <p>
+    If a future version of the app introduces anything that does collect data — advertising,
+    for example — this page will be updated before that version is released, and the change
+    will be described here with a new date at the top.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about this policy: <a href="mailto:contact.kortre@gmail.com">contact.kortre@gmail.com</a>
+  </p>
+</section>
+
+<!-- ============================ 日本語 ============================ -->
+<section id="ja" hidden>
+  <div class="lede">
+    <strong>Korea Patchwork は個人データを一切収集しません。</strong>
+    サーバーもアカウントも解析ツールもありません。アプリ自身がネットワーク通信を行うことはなく、
+    表示される内容はすべて端末内のアプリに保存されています。
+  </div>
+
+  <h2>端末に保存される情報</h2>
+  <p>次の4つだけが端末内に保存され、次回起動時にも保持されます。</p>
+  <ul>
+    <li>選択した言語</li>
+    <li>「マイ旅程」に追加した場所</li>
+    <li>訪問済みとしてチェックした場所</li>
+    <li>旅程表：それぞれの場所を何日目のどの時間帯に入れたか</li>
+  </ul>
+  <p>
+    これらの情報が端末から外に出ることはありません。アップロードも、当方へのバックアップも、
+    第三者への共有も行われません。当方が閲覧することはできません。アプリを削除すれば消えます。
+  </p>
+
+  <h2>位置情報</h2>
+  <p>
+    「周辺」画面では、このガイドに収録された場所のうち現在地に近いものを表示できます。そのために、
+    <em>ボタンを押したその時点で</em>、かつアプリを開いている間だけ、端末に現在地を問い合わせます。
+  </p>
+  <p>
+    取得した座標は距離計算のために端末のメモリ上で使われ、その後破棄されます。保存されることも、
+    どこかに送信されることもありません。アプリはサーバーに接続しないため、送信する手段自体が存在しません。
+  </p>
+  <p>
+    位置情報の利用は任意です。許可しなくても、アプリの他の機能はすべて通常どおり動作します。
+  </p>
+
+  <h2>行っていないこと</h2>
+  <ul>
+    <li>アカウント登録・ログインはありません。</li>
+    <li>アクセス解析、クラッシュレポート、利用状況の追跡は行いません。</li>
+    <li>広告の表示も、広告識別子の利用もありません。</li>
+    <li>Cookie や類似技術は使用しません。</li>
+    <li>個人情報の販売・共有はありません。そもそも収集していないためです。</li>
+    <li>使用中に何かをダウンロードすることはありません。地図と写真はアプリに入っています。</li>
+  </ul>
+
+  <h2>アプリの外に出るリンク</h2>
+  <p>
+    Korea Patchwork の外を開くボタンがいくつかあり、押したときにだけ動きます。地図ボタン（NAVER Map・Google マップ）は
+    その地図サービスに場所の名前や位置を渡します。「必須情報」の電話番号は電話アプリを開きます。
+    「写真の出典」画面の出典リンクはブラウザでサイトを開きます。都市ページに予約リンクがある場合は、旅行パートナーのサイトを開きます。
+  </p>
+  <p>
+    これらを押した後は他社のアプリ・サイトであり、当方ではなくそちらのプライバシーポリシーが適用されます。
+    一部の予約パートナーは、そのリンク経由で予約された場合に当方へ手数料を支払い、その実績確認のために
+    紹介タグや Cookie を用いることがあります。当方がそこからお客様の個人情報を受け取ることはなく、
+    受け取るとしても予約件数の集計値のみです。このアプリからお客様に関する情報を送ることはありません。
+  </p>
+
+  <h2>お子様について</h2>
+  <p>
+    本アプリは一般向けの旅行ガイドです。お子様を含め、誰からもデータを収集しません。
+  </p>
+
+  <h2>ご利用者の選択</h2>
+  <ul>
+    <li>端末の設定からいつでも本アプリの位置情報をオフにできます。</li>
+    <li>アプリの「設定」画面にある「マイ旅程を消す」で保存内容をすべて削除できます。</li>
+    <li>アプリを削除すれば、保存されたデータは端末から完全になくなります。</li>
+  </ul>
+  <p class="note">
+    当方のサーバーにお客様の個人データは一切存在しないため、開示・訂正・削除のご請求に対して
+    当方が処理すべきデータはありません。データはお客様自身の端末内にのみ、お客様の管理下で存在します。
+  </p>
+
+  <h2>本ポリシーの変更</h2>
+  <p>
+    将来のバージョンで広告など、データを収集する仕組みを導入する場合には、その公開前に本ページを更新し、
+    変更内容を記載したうえで冒頭の日付を改めます。
+  </p>
+
+  <h2>お問い合わせ</h2>
+  <p>
+    本ポリシーに関するお問い合わせ：<a href="mailto:contact.kortre@gmail.com">contact.kortre@gmail.com</a>
+  </p>
+</section>
+
+<!-- ============================ 简体中文 ============================ -->
+<section id="zh" hidden>
+  <div class="lede">
+    <strong>Korea Patchwork 不收集任何个人数据。</strong>
+    本应用没有服务器、没有账号、没有统计分析，自身不会发起任何网络请求。
+    你看到的全部内容都保存在手机里的应用内部。
+  </div>
+
+  <h2>应用在手机上保存了什么</h2>
+  <p>只有四项内容会保存在本地，以便下次打开时仍然保留：</p>
+  <ul>
+    <li>你选择的语言。</li>
+    <li>你加入“我的行程”的地点。</li>
+    <li>你标记为已去过的地点。</li>
+    <li>行程表：每个地点放在第几天、哪个时段。</li>
+  </ul>
+  <p>
+    这些信息不会离开你的设备，不会上传，不会备份给我们，也不会共享给任何人。我们无法看到它们。
+    删除应用后，它们也随之消失。
+  </p>
+
+  <h2>位置信息</h2>
+  <p>
+    “附近”页面可以显示本指南中离你最近的地点。为此，应用会<em>在你点击按钮的那一刻</em>、
+    且仅在应用打开期间，向手机请求你的位置。
+  </p>
+  <p>
+    坐标只在手机内存中用于计算距离，随后即被丢弃。它不会被写入存储，也不会被发送到任何地方——
+    本应用不连接任何服务器，因此根本没有发送的途径。
+  </p>
+  <p>
+    位置权限完全可选。即使拒绝，应用的其他所有功能也照常可用。
+  </p>
+
+  <h2>本应用不做的事</h2>
+  <ul>
+    <li>没有账号、登录或注册。</li>
+    <li>没有数据分析、崩溃上报或使用行为追踪。</li>
+    <li>没有广告，也不使用广告标识符。</li>
+    <li>不使用 Cookie 或类似技术。</li>
+    <li>不出售或共享个人信息——因为根本没有收集。</li>
+    <li>使用时不下载任何内容。地图和照片已经内置在应用里。</li>
+  </ul>
+
+  <h2>会跳出应用的链接</h2>
+  <p>
+    有几种按钮会打开 Korea Patchwork 之外的内容，只有在你点按时才会打开：地图按钮（NAVER 地图、Google 地图）
+    会把地点名称或位置交给该地图服务；“必备信息”里的电话号码会打开手机的拨号程序；照片来源页面的出处链接会在浏览器中打开网站；
+    城市页面上如有预订链接，会打开旅游合作方的网站。
+  </p>
+  <p>
+    点击之后你就进入了别人的应用或网站，适用的是对方的隐私政策而非本政策。部分预订合作方会在
+    你通过其链接完成预订时向我们支付佣金，并可能使用推荐标记或 Cookie 来核对这笔订单。
+    我们不会从他们那里获得你的个人信息，至多只是预订数量的汇总统计。本应用不会向他们发送任何关于你的信息。
+  </p>
+
+  <h2>关于儿童</h2>
+  <p>
+    本应用是面向一般受众的旅行指南。它不从任何人（包括儿童）处收集数据。
+  </p>
+
+  <h2>你的选择</h2>
+  <ul>
+    <li>随时可在手机设置中关闭本应用的位置权限。</li>
+    <li>在应用“设置”页面点击“清空我的行程”，即可删除全部已保存内容。</li>
+    <li>删除应用即可从设备上清除其保存的所有数据。</li>
+  </ul>
+  <p class="note">
+    由于我们的服务器上没有你的任何个人数据，因此在收到查询、更正或删除请求时，我们这边没有可处理的数据——
+    数据只存在于你自己的设备上，由你掌控。
+  </p>
+
+  <h2>本政策的变更</h2>
+  <p>
+    如果未来版本引入会收集数据的功能（例如广告），我们会在该版本发布前更新本页面，
+    在此说明变更内容，并更新顶部的日期。
+  </p>
+
+  <h2>联系方式</h2>
+  <p>
+    关于本政策的问题：<a href="mailto:contact.kortre@gmail.com">contact.kortre@gmail.com</a>
+  </p>
+</section>
+
+<!-- ============================ 한국어 ============================ -->
+<section id="ko" hidden>
+  <div class="lede">
+    <strong>Korea Patchwork는 개인정보를 일절 수집하지 않습니다.</strong>
+    서버도, 계정도, 분석 도구도 없습니다. 앱이 스스로 네트워크 통신을 하는 일이 없으며,
+    화면에 보이는 모든 내용은 휴대폰 안의 앱에 들어 있습니다.
+  </div>
+
+  <h2>휴대폰에 저장되는 것</h2>
+  <p>다음 네 가지만 기기 안에 저장되어, 앱을 다시 열어도 유지됩니다.</p>
+  <ul>
+    <li>선택한 언어</li>
+    <li>‘내 여행’에 담은 장소</li>
+    <li>방문했다고 체크한 장소</li>
+    <li>일정: 장소마다 며칠째, 어느 때(아침·오후 등)에 넣었는지</li>
+  </ul>
+  <p>
+    이 정보는 기기 밖으로 나가지 않습니다. 업로드되지 않고, 저희 쪽으로 백업되지 않으며,
+    누구와도 공유되지 않습니다. 저희는 이 내용을 볼 수 없습니다. 앱을 삭제하면 함께 사라집니다.
+  </p>
+
+  <h2>위치 정보</h2>
+  <p>
+    ‘주변’ 화면은 이 가이드에 실린 장소 중 현재 위치에서 가까운 곳을 보여줍니다. 이를 위해
+    <em>버튼을 누른 그 순간에</em>, 그리고 앱이 열려 있는 동안에만 휴대폰에 현재 위치를 물어봅니다.
+  </p>
+  <p>
+    받아온 좌표는 거리를 계산하는 데에만 휴대폰 메모리에서 쓰이고 곧바로 버려집니다. 저장되지 않고
+    어디로도 전송되지 않습니다. 앱이 어떤 서버에도 접속하지 않으므로 전송할 방법 자체가 없습니다.
+  </p>
+  <p>
+    위치 사용은 선택 사항입니다. 권한을 거부하셔도 앱의 나머지 기능은 모두 정상 동작합니다.
+  </p>
+
+  <h2>이 앱이 하지 않는 것</h2>
+  <ul>
+    <li>계정 가입이나 로그인이 없습니다.</li>
+    <li>이용 분석, 오류 수집, 사용 기록 추적을 하지 않습니다.</li>
+    <li>광고를 표시하지 않고, 광고 식별자를 쓰지 않습니다.</li>
+    <li>쿠키나 유사 기술을 쓰지 않습니다.</li>
+    <li>개인정보를 판매하거나 공유하지 않습니다. 애초에 수집하지 않기 때문입니다.</li>
+    <li>쓰는 도중에 무언가를 내려받지 않습니다. 지도와 사진은 앱 안에 들어 있습니다.</li>
+  </ul>
+
+  <h2>앱 바깥으로 나가는 링크</h2>
+  <p>
+    Korea Patchwork 바깥을 여는 버튼이 몇 가지 있고, 누를 때만 열립니다. 지도 버튼(네이버 지도·구글 지도)은
+    그 지도 서비스에 장소 이름이나 위치를 넘겨줍니다. ‘필수 정보’의 전화번호는 휴대폰 전화 앱을 엽니다.
+    사진 출처 화면의 출처 링크는 브라우저에서 사이트를 엽니다. 도시 화면에 예약 링크가 있으면 여행 제휴사의 사이트를 엽니다.
+  </p>
+  <p>
+    그 버튼을 누른 뒤부터는 다른 회사의 앱·사이트이며, 저희 방침이 아니라 그쪽 방침이 적용됩니다.
+    일부 예약 제휴사는 해당 링크를 통해 예약이 이루어지면 저희에게 수수료를 지급하고, 그 확인을 위해
+    추천 태그나 쿠키를 쓸 수 있습니다. 저희가 그쪽으로부터 이용자의 개인정보를 받는 일은 없으며,
+    받더라도 예약 건수 집계 정도입니다. 이 앱이 이용자에 관한 정보를 그쪽으로 보내는 일은 없습니다.
+  </p>
+
+  <h2>어린이</h2>
+  <p>
+    이 앱은 일반 이용자를 위한 여행 가이드입니다. 어린이를 포함해 누구에게서도 데이터를 수집하지 않습니다.
+  </p>
+
+  <h2>이용자의 선택</h2>
+  <ul>
+    <li>휴대폰 설정에서 이 앱의 위치 권한을 언제든 끌 수 있습니다.</li>
+    <li>앱의 ‘설정’ 화면에서 ‘내 여행 비우기’를 누르면 저장된 내용이 모두 지워집니다.</li>
+    <li>앱을 삭제하면 저장된 데이터가 기기에서 완전히 사라집니다.</li>
+  </ul>
+  <p class="note">
+    저희 서버에 이용자의 개인정보가 전혀 없으므로, 열람·정정·삭제를 요청하셔도 저희 쪽에서 처리할
+    데이터가 존재하지 않습니다. 데이터는 오직 이용자 본인의 기기 안에, 본인의 통제 아래 있습니다.
+  </p>
+
+  <h2>방침 변경</h2>
+  <p>
+    앞으로 광고처럼 데이터를 수집하는 기능이 들어가는 버전을 낼 경우, 그 버전을 공개하기 전에
+    이 페이지를 먼저 고치고 변경 내용을 여기에 적은 뒤 맨 위 날짜를 바꾸겠습니다.
+  </p>
+
+  <h2>문의</h2>
+  <p>
+    이 방침에 관한 문의: <a href="mailto:contact.kortre@gmail.com">contact.kortre@gmail.com</a>
+  </p>
+</section>
+
+<footer>
+  Korea Patchwork — an offline travel guide to Korea.
+</footer>
+</div>
+
+<script>
+  var tabs = document.querySelectorAll('nav button');
+  tabs.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var lang = btn.dataset.lang;
+      tabs.forEach(function (b) { b.setAttribute('aria-selected', String(b === btn)); });
+      ['en','ja','zh','ko'].forEach(function (id) {
+        document.getElementById(id).hidden = (id !== lang);
+      });
+      document.documentElement.lang = lang;
+    });
+  });
+  // 브라우저 언어에 맞춰 처음 탭을 고릅니다.
+  (function () {
+    var code = (navigator.language || 'en').slice(0, 2).toLowerCase();
+    var match = document.querySelector('nav button[data-lang="' + code + '"]');
+    if (match) match.click();
+  })();
+</script>
+</body>
+</html>
